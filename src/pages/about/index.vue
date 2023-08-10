@@ -59,13 +59,13 @@
         return {
           contacts: [{
             title: '地　　址',
-            content: '北京人力资源产业园(朝阳园区)'
+            content: '北京市朝阳区金卫路南200米   中国北京人力资源服务产业园（朝阳园区）'
           }, {
             title: '电　　话',
-            content: '0755-43213213'
+            content: '60861005-8027'
           }, {
             title: '邮　　箱',
-            content: '123213@163.com'
+            content: 'yidegongjiang@126.com'
           }]
         }
       },

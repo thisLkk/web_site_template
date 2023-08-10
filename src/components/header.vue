@@ -17,7 +17,7 @@
   <div class="header-content">
     <div class="header-content-text">
       <div class="header-content-text-title">
-        <span class="header-content-text-title-h1">益 得 工 匠</span>
+        <span class="header-content-text-title-h1">北京市朝阳区益得工匠职业技能培训学校</span>
       </div>
 
       <div class="header-content-text-desc">
@@ -56,14 +56,17 @@ export default {
       popupImgUrl: '',
       popupDesc: '',
       showPopup: false,
-
-      msg: '欢迎使用大转转fe脚手架',
       links: [{
         name: 'home',
         text: '首页',
         type: 'link',
         url: '/'
       }, {
+        name: 'news',
+        text: '资讯中心',
+        type: 'link',
+        url: '/news'
+      },{
         name: 'rules',
         text: '发展历程',
         type: 'link',

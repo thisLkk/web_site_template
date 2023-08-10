@@ -12,6 +12,10 @@ const routes = [
     {
         path: '/about',
         component: () => import('@/pages/about/index.vue')             
+    },
+    {
+        path: '/news',
+        component: () => import('@/pages/news/index.vue')             
     }
 ]
 export const router = createRouter({

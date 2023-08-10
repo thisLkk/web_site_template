@@ -5,7 +5,7 @@ import { resolve } from 'path'
 // https://vitejs.dev/config/
 export default defineConfig(({command}) => {
   return {
-    base: command == 'serve' ? './' : '/web/ydgj/',
+    base: command == 'serve' ? './' : '/',
     build: {
       assetsDir: "static",
       rollupOptions: {

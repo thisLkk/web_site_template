@@ -2,14 +2,19 @@
   <div class="bottom">
     <div class="bottom-container">
       <div class="bottom-container-left">
-        <div class="bottom-container-text">北京益得工匠职业技能培训学校</div>
+        <div class="bottom-container-text">北京市朝阳区益得工匠职业技能培训学校</div>
         <div class="bottom-container-text">
-          <a target="_blank" href="http://beian.miit.gov.cn">主体备案号： 京ICP备2021041243号</a>
+          <a target="_blank" href="https://beian.miit.gov.cn/">
+            <img class="bottom-container-text_img" src="../assets/icon.png"/>
+            <span style="color:#939393;">
+              京公网安备 11010502053244号
+            </span>
+          </a >
         </div>
       </div>
       <div class="bottom-container-right">
         <div class="bottom-container-text"></div>
-        <div class="bottom-container-text">&copy;Copyright 2022-至今 yidegongjiang.com All Right Reserved</div>
+        <div class="bottom-container-text">&copy;Copyright 2022-至今 www.cyydgj.com All Right Reserved</div>
       </div>
     </div>
   </div>
@@ -52,6 +57,10 @@ export default {
       height: 32px;
       line-height: 32px;
       font-size: 18px;
+      &_img {
+        position: relative;
+        top: 3px;
+      }
     }
   }
 }
